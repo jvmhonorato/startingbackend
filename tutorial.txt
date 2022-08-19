@@ -1,0 +1,3 @@
+1: iniciando em Backend criar arquivo server.js
+
+2:nele importar o HTTP pra criar um server 
