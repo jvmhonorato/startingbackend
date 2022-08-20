@@ -1,3 +1,9 @@
 1: iniciando em Backend criar arquivo server.js
 
-2:nele importar o HTTP pra criar um server 
+2:nele importar o HTTP pra criar um server retornando uma mensagem de teste
+
+3: usar express : npm init, npm install --save express
+
+4:criar index.js importa express criar a estancia app
+
+
