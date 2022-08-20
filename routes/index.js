@@ -1,18 +1,14 @@
+//Import
 const express = require('express');
 const router = express.Router();
+const indexController = require('../controllers/index')
 
 //Routes
-   router.get('/', (req, res) => { 
-    res.send('Home')
-   })
-   router.get('/sobre', (req, res) => { 
-    res.send('sobre')
-   })
 
-
-   router.get('/contato', (req, res) => { 
-    res.send('contato')
-   })
+// modulos com as funções importada de controllers/index
+   router.get('/', indexController.home)
+   router.get('/sobre', indexController.sobre)
+   router.get('/contato', indexController.contato)
 
 
    module.exports =   router

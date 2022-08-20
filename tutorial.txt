@@ -12,3 +12,7 @@
 app.use('/', indexRouter) pra carregar todas as rotas
 
 7: testando o middleware em index.js 
+
+8: criar na rais do projeto pasta controllers criar  todos os modulos de rotas la, exportar pra routes  no seu respectivo arquivo de rota e la dar o importa , de forma que o código fique mais limpo e testável de forma unitária
+
+9: E respectivamente exportar os modulos pronto pra main index.js

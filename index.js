@@ -3,7 +3,7 @@ const express = require('express');
 const app = express()
 const port = 3000
 const indexRouter = require('./routes/index')
-const clientesRouter = require('./routes/clientes');
+const clientsRouter = require('./routes/clients');
 
 
 
@@ -19,7 +19,7 @@ const clientesRouter = require('./routes/clientes');
 
 
    app.use('/', indexRouter)
-   app.use('/clients', clientesRouter)
+   app.use('/clients', clientsRouter)
 
 
 
