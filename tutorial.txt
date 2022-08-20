@@ -6,4 +6,9 @@
 
 4:criar index.js importa express criar a estancia app
 
+5: criar pasta routes com index.js e todos os .js correpondente a cada rota dentro, fazer os imports e as rotas todas nesse arquivo para depois importar pra o index.js principaçl, criar o module.exports para exportar o modulo
 
+6: importar o modulo pra o index.js principal e usar o: 
+app.use('/', indexRouter) pra carregar todas as rotas
+
+7: testando o middleware em index.js 
