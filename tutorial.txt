@@ -22,3 +22,10 @@ OBS: testando o middleware em index.js e comentado depois
 10: EM index.js controller add na rota calc, com um condicional, destruring assigmnent e pra atrelar req.query as key que serão declaradas, um const soma com oderaçaõ de adição estanciando com um parseFloat, depois passar o res.send pra renderizar o resultado no browser exportar esse modulo calc e importar na routes.index.js
 
 11: em seguida chamar no browser :http://localhost:3000/calc?num1=1&num2=2
+
+12: em index.js controller add rota par con uma condicional pra ver se o numero declarado em paramtro é par ou impar exportaei para index.js routes 
+
+13: chamar na url: http://localhost:3000/par/11
+ browser render: Numero impar
+ chamar na url: http://localhost:3000/par/10
+  browser render: Numero par

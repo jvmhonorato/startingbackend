@@ -24,11 +24,22 @@ const calc = (req,res)=> {
         res.send('Vai renderizar Calculadora')
 }
 
+const par = (req,res) => {
+    //estanciar em isPar condição pra ver se o numero que será declarado em parâmetro na url  (num) é par ou impar
+    const isPar = (req.params.num % 2)===0
+    if(isPar){
+        res.send('Numero eh par')
+    }else{
+        res.send('Numero impar')
+    }
+}
+
 
 
 module.exports = {
     home,
     sobre,
     contato,
-    calc
+    calc,
+    par
 }

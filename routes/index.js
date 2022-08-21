@@ -10,6 +10,7 @@ const indexController = require('../controllers/index')
    router.get('/sobre', indexController.sobre)
    router.get('/contato', indexController.contato)
    router.get('/calc', indexController.calc)
+   router.get('/par/:num',indexController.par)
 
 
    module.exports =   router
