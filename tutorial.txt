@@ -6,13 +6,19 @@
 
 4:criar index.js importa express criar a estancia app
 
-5: criar pasta routes com index.js e todos os .js correpondente a cada rota dentro, fazer os imports e as rotas todas nesse arquivo para depois importar pra o index.js principaçl, criar o module.exports para exportar o modulo
+5: criar pasta routes com index.js e todos os .js correpondente a cada rota dentro, fazer o module.exports pra main index.js
 
-6: importar o modulo pra o index.js principal e usar o: 
-app.use('/', indexRouter) pra carregar todas as rotas
+6: Criar pasta controllers criar um arquivo nela pra cada arquivo de routes 
 
-7: testando o middleware em index.js 
+7: configurar em controllers as funções de cada rota específica e exportar todas elas atraves do module.exports
 
-8: criar na rais do projeto pasta controllers criar  todos os modulos de rotas la, exportar pra routes  no seu respectivo arquivo de rota e la dar o importa , de forma que o código fique mais limpo e testável de forma unitária
+8: Em routes imporar os modulos e concatenar a rota correspondente 
 
-9: E respectivamente exportar os modulos pronto pra main index.js
+OBS: testando o middleware em index.js e comentado depois 
+
+
+9: E respectivamente exportar os modulos pronto de routes pra main index.js
+
+10: EM index.js controller add na rota calc, com um condicional, destruring assigmnent e pra atrelar req.query as key que serão declaradas, um const soma com oderaçaõ de adição estanciando com um parseFloat, depois passar o res.send pra renderizar o resultado no browser exportar esse modulo calc e importar na routes.index.js
+
+11: em seguida chamar no browser :http://localhost:3000/calc?num1=1&num2=2
