@@ -48,4 +48,4 @@ OBS: testando o middleware em index.js e comentado depois
 
   22: refatorando calc em controller/index.js, e criando tambem views/calc.ejs 
 
-  23:criando um mini menu 
+  23:criando um mini menu no header.ejs
