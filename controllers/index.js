@@ -2,7 +2,13 @@
 //criar modulos de index aqui
 
 const home = (req,res)=>{
-    res.send('Vai renderizar a HOME')
+    //res.render vai pegar home dentro de views
+    //segundo parâmetro mandar a hora ser renderizada
+    res.render('home', {
+        //passando variáveis pra ser renderizada
+        time: new Date().getTime()
+    })
+
 }
 const sobre = (req,res)=> {
      res.send('Vai renderizar o SOBRE')

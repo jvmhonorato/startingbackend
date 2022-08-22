@@ -34,4 +34,14 @@ OBS: testando o middleware em index.js e comentado depois
 
   15: configurar package.json "test": path
 
-  16:
+  16:mocha chai sineon ficou imcompleto no exercicio 
+
+  17: instalar o ejs: npm install --save ejs 
+
+  18: no console digitar \ enter npms start pra ver o caminho
+
+  19: add app.set em main index.js denominado pasta views e arquivos ejs
+
+  20: criar pasta views/home.ejs, criar estrutura html dentro dela
+
+  21: 

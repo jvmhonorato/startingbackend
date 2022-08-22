@@ -4,7 +4,12 @@ const app = express()
 const port = 3000
 const indexRouter = require('./routes/index')
 const clientsRouter = require('./routes/clients');
+const path = require('path')
 
+//Pra o express receber o .ejs:
+//set onde o primeiro parâmetro  views é a pasta terá os views e o segundo parâmetro é o path.join que tem dois parâmetros  primeiro o __dirname é o caminho até chegar no dirétorio nomeado no segundo parâmetro: views
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'ejs')
 
 
 

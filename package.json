@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec  " ,
+    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec  ",
     "test2": "node_modules\\.bin\\mocha --reporter spec **/*.test.js",
     "test3": "./node_modules/.bin/mocha **/*test.js --reporter spec",
     "start": "node index.js"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/vituhonorato/startingbackend#readme",
   "dependencies": {
     "chai": "^4.3.6",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mocha": "^10.0.0",
     "sinon": "^14.0.0"
