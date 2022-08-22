@@ -25,7 +25,7 @@ const calc = (req,res)=> {
         //criar const soma e anexar parseFloat as key 
         const soma =  parseFloat(num1) + parseFloat(num2)
         //renderiza o resultado da operação de acordo com os valores declarados na URL
-        res.send(`O valor da soma é: ${soma} `)
+        res.render('calc', {soma} )
     }else{
         res.send('Vai renderizar Calculadora')
     }

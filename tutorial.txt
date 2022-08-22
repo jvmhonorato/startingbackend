@@ -44,4 +44,8 @@ OBS: testando o middleware em index.js e comentado depois
 
   20: criar pasta views/home.ejs, criar estrutura html dentro dela
 
-  21: 
+  21: criado header.ejs footer.ejs em partials
+
+  22: refatorando calc em controller/index.js, e criando tambem views/calc.ejs 
+
+  23:criando um mini menu 
