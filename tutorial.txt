@@ -29,3 +29,9 @@ OBS: testando o middleware em index.js e comentado depois
  browser render: Numero impar
  chamar na url: http://localhost:3000/par/10
   browser render: Numero par
+
+  14: inciar testes add: npm install mocha --dev , npm install chai --dev, npm install sinon --dev
+
+  15: configurar package.json "test": path
+
+  16:

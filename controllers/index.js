@@ -20,8 +20,10 @@ const calc = (req,res)=> {
         const soma =  parseFloat(num1) + parseFloat(num2)
         //renderiza o resultado da operação de acordo com os valores declarados na URL
         res.send(`O valor da soma é: ${soma} `)
-    }
+    }else{
         res.send('Vai renderizar Calculadora')
+    }
+        
 }
 
 const par = (req,res) => {
