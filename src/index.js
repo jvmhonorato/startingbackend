@@ -6,7 +6,14 @@ const home = (req,res)=>{
     //segundo parâmetro mandar a hora ser renderizada
     res.render('home', {
         //passando variáveis pra ser renderizada
-        time: new Date().getTime()
+        time: new Date().getTime(),
+        lista:['Victor','Honorato'],
+        animais:[
+            {tipo: 'canino'},
+            {tipo: 'felino'},
+            {tipo: 'bovide'}
+
+        ]
     })
 
 }

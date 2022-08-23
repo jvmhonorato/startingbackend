@@ -1,5 +1,14 @@
 <%- include('partials/header')%>
     <h1>Página Home</h1>
     <p><%= time %></p>
+    <% lista.forEach((item)=> {%>
+       <li><%= item %> </li>
+    <%  }) %>
+
+
+    <% animais.forEach((item)=> {%>
+        <li>Tipos: <%= item.tipo %> </li>
+     <%  })%>
+    
     
 <%- include('partials/footer')%>

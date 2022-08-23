@@ -49,3 +49,5 @@ OBS: testando o middleware em index.js e comentado depois
   22: refatorando calc em controller/index.js, e criando tambem views/calc.ejs 
 
   23:criando um mini menu no header.ejs
+
+  24: Repetição, em src/index.js na const home chamamos um array e um objeto pra depois inserimos no home.ejs 

@@ -1,7 +1,7 @@
 //Imports
 const express = require('express');
 const router = express.Router();
-const clientsController = require('../controllers/clients')
+const clientsController = require('../src/clients')
 
 
 

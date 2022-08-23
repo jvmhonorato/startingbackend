@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "find ./ -name '*.test.js' | xargs ./node_modules/.bin/mocha --reporter spec  ",
-    "test2": "node_modules\\.bin\\mocha --reporter spec **/*.test.js",
-    "test3": "./node_modules/.bin/mocha **/*test.js --reporter spec",
+    "test": "mocha",
+    
     "start": "node index.js"
   },
   "repository": {
